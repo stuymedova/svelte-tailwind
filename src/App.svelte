@@ -1,6 +1,6 @@
 <div class='font-sans-light antialiased'>
   <header class='m-lg'>
-    <h1 class='text-6xl leading-heading'>Svelte + Tailwind</h1>
+    <h1 class='text-6xl leading-heading'>Svelte + TailwindCSS</h1>
   </header>
 
   <main>
