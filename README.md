@@ -1,5 +1,5 @@
 # Svelte + TailwindCSS
-[DEMO] Svelte app with TailwindCSS configured
+Svelte app with TailwindCSS configured
 
 ## Overview
 
