@@ -33,7 +33,7 @@ module.exports = {
       },
       gap: {
         '1': '1rem',
-        '4': '4rem'
+        '5': '5rem'
       },
       colors: {
         'blue': '#0f62fe',
@@ -47,7 +47,7 @@ module.exports = {
       minHeight: {
         'btn': '3rem'
       },
-      maxWidth: {
+      width: {
         'btn': '12.25rem'
       },
       screens: {

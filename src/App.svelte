@@ -4,7 +4,7 @@
   </header>
 
   <main>
-    <div class='grid grid-cols-6 gap-4 sm:grid-cols-1 sm:gap-1 m-lg'>
+    <div class='grid grid-cols-6 gap-5 sm:grid-cols-1 sm:gap-1 m-lg'>
       <div class='col-span-1'>
         <h4 class='text-3xl'>Typography</h4>
       </div>
@@ -19,7 +19,7 @@
       </div>
     </div>
     
-    <div class='grid grid-cols-6 gap-4 sm:grid-cols-1 sm:gap-1 m-lg'>
+    <div class='grid grid-cols-6 gap-5 sm:grid-cols-1 sm:gap-1 m-lg'>
       <div class='col-span-1'>
         <h4 class='text-3xl'>Components</h4>
       </div>
@@ -65,7 +65,7 @@
 
   button {
     padding: calc(.875rem - 3px) 63px calc(.875rem - 3px) 15px;
-    @apply w-full text-left no-underline outline-none border my-sm text-sm min-h-btn max-w-btn whitespace-nowrap;
+    @apply text-left no-underline outline-none border my-sm text-sm min-h-btn w-btn whitespace-nowrap;
   }
   button:not(:last-of-type) {
     @apply mr-md;
