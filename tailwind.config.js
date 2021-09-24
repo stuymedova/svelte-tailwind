@@ -28,10 +28,11 @@ module.exports = {
       },
       margin: {
         'sm': '2px',
-        'md': '4px',
+        'md': '3px',
         'lg': '2rem'
       },
       gap: {
+        '1': '1rem',
         '4': '4rem'
       },
       colors: {
@@ -48,6 +49,9 @@ module.exports = {
       },
       maxWidth: {
         'btn': '12.25rem'
+      },
+      screens: {
+        'sm': {'max': '800px'}
       }
     }
   }

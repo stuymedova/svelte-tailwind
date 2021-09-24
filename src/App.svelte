@@ -4,11 +4,11 @@
   </header>
 
   <main>
-    <div class='grid grid-cols-6 m-lg gap-4'>
+    <div class='grid grid-cols-6 gap-4 sm:grid-cols-1 sm:gap-1 m-lg'>
       <div class='col-span-1'>
         <h4 class='text-3xl'>Typography</h4>
       </div>
-      <div class='col-span-5'>
+      <div class='col-span-5 sm:col-span-1'>
         <h1 class='text-6xl'>Heading 1</h1>
         <h2 class='text-5xl'>Heading 2</h2>
         <h3 class='text-4xl'>Heading 3</h3>
@@ -19,11 +19,11 @@
       </div>
     </div>
     
-    <div class='grid grid-cols-6 m-lg gap-4'>
+    <div class='grid grid-cols-6 gap-4 sm:grid-cols-1 sm:gap-1 m-lg'>
       <div class='col-span-1'>
         <h4 class='text-3xl'>Components</h4>
       </div>
-      <div class='col-span-5'>
+      <div class='col-span-5 sm:col-span-1'>
         <h4 class='text-3xl'>Buttons</h4>
         <div class='flex font-sans-regular'>
           <button class='bg-blue text-white border-transparent hover:bg-dark-blue'>Primary button</button>
@@ -65,7 +65,7 @@
 
   button {
     padding: calc(.875rem - 3px) 63px calc(.875rem - 3px) 15px;
-    @apply w-full text-left no-underline outline-none border my-sm text-sm min-h-btn max-w-btn;
+    @apply w-full text-left no-underline outline-none border my-sm text-sm min-h-btn max-w-btn whitespace-nowrap;
   }
   button:not(:last-of-type) {
     @apply mr-md;
