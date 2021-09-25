@@ -25,7 +25,7 @@
       </div>
       <div class='col-span-5 sm:col-span-1'>
         <h4 class='text-3xl'>Buttons</h4>
-        <div class='flex font-sans-regular'>
+        <div class='flex flex-wrap font-sans-regular'>
           <button class='bg-blue text-white border-transparent hover:bg-dark-blue'>Primary button</button>
           <button class='bg-grey text-white border-transparent hover:bg-lighter-grey'>Secondary button</button>
           <button class='bg-white text-blue border-blue hover:bg-dark-blue hover:text-white'>Tertiary button</button>
